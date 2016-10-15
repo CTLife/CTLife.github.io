@@ -35,7 +35,7 @@ active: Bioinformatics
                                                                                        
 # 首页除了最新文章外显示分类
 cates: 
-  - Systems Biology
+  -SystemsBiology
                                                                  
 # 中文本地化
 locals:
