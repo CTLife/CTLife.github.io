@@ -1,0 +1,46 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
+
+# 作者信息
+author:
+  name: Yong Peng
+  email: yongp@outlook.com
+  link:  https://CTLife.github.io
+  weibo: http://weibo.com
+  github: https://github.com/CTLife
+  music: http://music.baidu.com/
+
+# 站点信息
+title: 彭勇的博客
+description: Only Focus on Data Science & Complex Systems Science in Life Science. 
+url: https://ctlife.github.io/
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/logo-1.png
+favicon: /public/img/logo-1.png
+
+# google analytics 设置
+#ga:
+  #id: UA-72593076-1
+  #url: http://ctlife.github.io/
+
+# disqus 设置
+disqus:
+  shortname: ctlife
+
+# 主题设置，自动激活某个标签
+active: Bioinformatics
+
+# 首页除了最新文章外显示分类
+#cates: 
+#  - Bioinformatics
+#  - Systems Biology
+
+# 中文本地化
+locals:
+  tags: Tags (标签)
+  about: About (关于本站)
+  newest: Recent Posts 
+  archive: Archive (归档)
