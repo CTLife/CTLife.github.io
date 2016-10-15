@@ -40,8 +40,8 @@ active: Bioinformatics
 
 # 中文本地化
 locals:
-  YongPeng: Yong Peng
   tags: Tags (标签)
+  YongPeng: Yong Peng
   archive: Archive (归档)    
   about: About (关于本站)
   newest: Recent Posts 
