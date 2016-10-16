@@ -8,11 +8,13 @@ body, html {
   margin: 0%;
   height: 100%;
   overflow: auto; 
-  background-color: #555555;
+  background-color: #63B8FF;
 }
 .row {
   height: 100%;
 }
+                        
+                                        
 /* 导航栏 + 目录栏 */
 .aside {
   width: 30%;
