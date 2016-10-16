@@ -4,7 +4,7 @@
     {% include header.html %}
 </head>   
 	                 
-<body onload =  "if (location.search.length < 1){window.location.reload()}">
+<body>
   <div class="container">
     <div class="row">
       {% include navside.html %}
@@ -20,5 +20,23 @@
   {% include footer.html %}
   {% include googleanalytics.html %}
   	
-</body>                           
+</body>  
+<script type="text/javascript">
+	
+
+$(document).ready(function () {
+$('#btReload').click(function () { location.reload(true); });    // Manual
+
+TimeSet(); // Auto Once});
+
+function TimeSet() {
+setTimeout(function () {
+    // Do something after 5 seconds
+    Refresh()
+}, 5000);}
+
+function Refresh() {
+location.reload();}
+</script>
+
 </html>
