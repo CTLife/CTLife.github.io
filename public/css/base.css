@@ -23,7 +23,7 @@ body, html {
                               
 /* 左侧导航栏 */
 .aside1 {
-  background-color: #218868;
+  background-color: rgba(0,153,0, 0.5);
   width: 45%;    
   height: 100%;
   padding-left: 2%;
