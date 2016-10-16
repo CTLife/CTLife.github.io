@@ -35,7 +35,8 @@ body, html {
   padding-left: 0px;
   padding-right: 0px;
   border-radius: 0px;
-  color: #CD0000;
+  color: #1E90FF;
+  font-weight: bolder;  
   font-size: 130%;
   padding: 2%   2%;  
 }
