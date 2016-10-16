@@ -80,9 +80,8 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
-  width: 96%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 2px;
+  padding-right: 2px;
   /*background-image: url(/public/img/bg_lines1.jpg);*/
 }
 .aside3-title {
