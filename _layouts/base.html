@@ -2,30 +2,7 @@
 <html> 
 <head>
     {% include header.html %}
-    <script language="javascript">
-      function init() {
-        var form = document.getElementById('theform');
-        var input = form.refreshed;
-        function reload() {
-          location.reload(false);
-        }
-        function isRefreshed() {
-          return !!input.value;
-        }
-        function doDisplay() {
-          var el = document.getElementById(isRefreshed() ? 'two' : 'one');
-          el.style.display = 'block';
-        }
-        function conditionalRefresh() {
-          if (!isRefreshed()) {
-            input.value = 'true';
-            setTimeout(reload, 1000);
-          }
-        }
-        doDisplay();
-        conditionalRefresh();
-      }
-    </script>
+    <meta http-equiv="refresh" content="0" />
 </head>   
 
 	                                           
@@ -43,12 +20,7 @@
     </div>
   </div>
   {% include footer.html %}
-  {% include googleanalytics.html %}
-	
-  <form id="theform">
-      <input type="hidden" name="refreshed" />
-  </form>
-	
+  {% include googleanalytics.html %}	
 </body>  	
 	
 </html>
