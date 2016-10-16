@@ -3,17 +3,7 @@
   
 <head>
   {% include header.html %}
-  <script>
-    function reurl(){
-      url = location.href;
-      var times = url.split("?t=");
-      if(times[1] != 1){
-      url += "?t=1";
-      self.location.replace(url);
-    }
-  }
-  onload=reurl
-  </script>
+  <meta http-equiv="refresh" content="no-cache">  
 </head>
                               
 <body>
