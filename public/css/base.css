@@ -20,9 +20,10 @@ body, html {
   width: 30%;
   height: 100%;
 }
+                              
 /* 左侧导航栏 */
 .aside1 {
-  background-color: #1abc9c;
+  background-color: #218868;
   width: 45%;    
   height: 100%;
   padding-left: 2%;
