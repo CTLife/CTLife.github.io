@@ -2,7 +2,19 @@
 <html> 
 <head>
   {% include header.html %}
-  <meta http-equiv="refresh" content="10">
+  <script>
+  function refresh(){
+	url = location.href;
+	console.log(url);
+	var once = url.split("#");
+	if (once[1] != 1) {
+		url += "#1";
+		self.location.replace(url);
+		window.location.reload();
+	}
+}
+setTimeout('refresh()', 5000);
+</script>
 </head>                         
 <body>
   <div class="container">
