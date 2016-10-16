@@ -52,8 +52,8 @@ body, html {
 }
 
 .avatar {  /* 顶部图片 */ 
-  width: 95%;
-  border: 2px solid #fff;
+  width: 50%;
+  border: 2px;
 }
 .img_center{
   text-align:center;
