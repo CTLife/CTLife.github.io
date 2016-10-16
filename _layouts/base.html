@@ -22,21 +22,19 @@
   	
 </body>  
 
-<script type='text/javascript'>
-(function()
-{
-  if( window.localStorage )
-  {
-    if( !localStorage.getItem('firstLoad') )
-    {
-      localStorage['firstLoad'] = true;
-      window.location.reload();
-    }  
-    else
-      localStorage.removeItem('firstLoad');
-  }
-})();
+<script type="text/javascript">
+function getCookie(name){
+var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+if(arr != null) return unescape(arr[2]);
+return null;
+}
+var pageFresh = getCookie("pagefresh");
+if (pageFresh!="ok") {
+document.cookie = 'pagefresh=ok';
+location.reload(true); // 强制从服务器取
 
+}
 </script>
+	
 	
 </html>
