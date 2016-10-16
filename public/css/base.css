@@ -53,10 +53,7 @@ body, html {
 
 .avatar {  /* 顶部图片 */ 
   width: 50%;
-  border: 2px;
-}
-.img_center{
-  text-align:center;
+  border: 0px;
 }
 
 .aside1_bottom {
@@ -68,6 +65,7 @@ body, html {
 .aside1_bottom > .table {
   margin-bottom: 0px;
 }
+                                           
 /* 中部目录栏 */
 .aside2 {
   background-color: #303030;
