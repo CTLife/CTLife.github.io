@@ -80,6 +80,7 @@ body, html {
   overflow-y: auto;
   background-color: #fff;
   overflow-x: hidden;
+  width: 30%;
   padding-left: 2px;
   padding-right: 2px;
   /*background-image: url(/public/img/bg_lines1.jpg);*/
