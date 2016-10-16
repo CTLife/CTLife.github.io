@@ -4,7 +4,7 @@
     {% include header.html %}
 </head>   
 	                 
-<body onload="opener.location.reload()">
+<body onload =  "if (location.search.length < 1){window.location.reload()}">
   <div class="container">
     <div class="row">
       {% include navside.html %}
