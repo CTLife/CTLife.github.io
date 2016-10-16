@@ -22,7 +22,10 @@ alert('firstime');
 } 
 	</script>
 </head>                         
-<body>
+<body onLoad="JavaScript:checkRefresh();">
+	<form name="refreshForm">
+<input type="hidden" name="visited" value="" />
+</form>
   <div class="container">
     <div class="row">
       {% include navside.html %}
