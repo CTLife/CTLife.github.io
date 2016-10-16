@@ -2,22 +2,9 @@
 <html> 
 <head>
     {% include header.html %}
-    <script language="JavaScript"> 
-        function checkRefresh() {
-            if( document.refreshForm.visited.value == "" ) {
-                alert('firstime');
-                // This is a fresh page load
-                document.refreshForm.visited.value = "1";
-                // You may want to add code here special for
-                // fresh page loads
-            }else{
- 
-            }
-         } 
-    </script>
 </head>   
 	                 
-<body onLoad="JavaScript:checkRefresh();">
+<body onload="opener.location.reload()">
   <div class="container">
     <div class="row">
       {% include navside.html %}
@@ -32,8 +19,6 @@
   </div>
   {% include footer.html %}
   {% include googleanalytics.html %}
-   <form name="refreshForm">
-       <input type="hidden" name="visited" value="" />
-   </form>	
+  	
 </body>                           
 </html>
