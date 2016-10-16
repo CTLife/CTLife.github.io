@@ -1,8 +1,17 @@
 <!doctype html>
 <html>
+  
 <head>
   {% include header.html %}
+  <script>
+    if(location.href.indexOf("refresh=1") === -1) {
+        setTimeout(function() {
+                location = location.href + "?refresh=1"
+        }, 2000)
+    }
+  </script>
 </head>
+                              
 <body>
   <div class="container">
     <div class="row">
@@ -18,16 +27,6 @@
   </div>
   {% include footer.html %}
   {% include googleanalytics.html %}
-  <script>
-    function reurl(){
-        url = location.href;
-        var times = url.split("?t=");
-        if(times[1] != 1){
-        url += "?t=1";
-        self.location.replace(url);
-       }
-     }
-     onload=reurl
-  </script>
 </body>
+                            
 </html>
