@@ -4,12 +4,11 @@ markdown: redcarpet
 
 # 作者信息
 author:
-  name: Yong Peng
+  name:  Yong Peng
   email: yongp@outlook.com
-  link:  https://CTLife.github.io
-  weibo: http://weibo.com
+  link:   https://CTLife.github.io
   github: https://github.com/CTLife
-  music: http://music.baidu.com/
+
 
 # 站点信息
 title: 彭勇的博客
