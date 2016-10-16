@@ -2,6 +2,25 @@
 <html> 
 <head>
   {% include header.html %}
+<script language="JavaScript"> 
+function checkRefresh()
+{
+ if( document.refreshForm.visited.value == "" )
+ {
+ 
+alert('first ime');
+  // This is a fresh page load
+  document.refreshForm.visited.value = "1";
+ 
+  // You may want to add code here special for
+  // fresh page loads
+ }
+ else
+ {
+ 
+  }
+} 
+	</script>
 </head>                         
 <body>
   <div class="container">
