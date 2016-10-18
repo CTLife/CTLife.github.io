@@ -31,11 +31,11 @@ disqus:
   shortname: ctlife
 
 # 主题设置，自动激活某个标签
-active: Tags(按标签分类)
+active: Tags
 
 # 中文本地化
 locals:
-  tags: Tags(按标签分类)
+  tags: Tags
   YongPeng: Yong Peng
   archive: Archive (按时间排序)    
   about: About (关于本站)
