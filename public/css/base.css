@@ -38,7 +38,7 @@ body, html {
   color: #FFFFFF;
   font-weight: bolder;  
   font-size: 130%;
-  padding: 0%;  
+  padding-bottom: 5px;  
 }
 
 .aside1> .nav > li > a:hover {
