@@ -1,8 +1,8 @@
 ---
 layout: post
 title: About this categary "English"
-category: English
-tags: ReadMe
+category: English 
+tags: ReadMe English_Posts
 keywords: 
 description: 
 ---
