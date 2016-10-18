@@ -35,9 +35,9 @@ active:
 
 # 中文本地化
 locals:
+  newest: Recent Posts
   tags: Tags (按标签分类)
-  YongPeng: Yong Peng
   archive: Archive (按时间排序)    
   about: About (关于本站)
-  newest: Recent Posts  
+    
   
