@@ -31,7 +31,7 @@ disqus:
   shortname: ctlife
 
 # 主题设置，自动激活某个标签
-active: 
+active: English
 
 # 中文本地化
 locals:
