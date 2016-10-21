@@ -11,19 +11,27 @@ description:  Recent Advances in Cardiac Development and Regeneration
 ### Abstract:                              
 As the adult mammalian heart has limited potential for regeneration, the loss of cardiomyocytes during injury and disease can result in heart failure and death. The cellular processes and regulatory mechanisms involved in heart development can be exploited to repair the injured adult heart.  And pluripotent embryonic stem cells have emerged as an attractive candidate stem cell source for obtaining cardiomyocytes, because of their tremendous capacity for expansion and unquestioned potential to differentiate into cardiomyocytes. I will attempt to review the recent advances in cardiac development and regeneration from three aspects, cis-acting elements, epigenetics and regulatory networks.
 
+
+  <br />     
                   
 ### Keywords: 
 heart development, cardiac regeneration, cis-acting element, epigenetics, gene regulatory network.
 
 
+  <br />     
+
 
 The heart is the first organ to function in the embryo, and this function is essential for survival during fetal life. The vertebrate heart is principally composed of cardiac muscle and connective tissue. Cardiac muscle is an involuntary striated muscle tissue and is responsible for the heart's ability to pump blood. The heart grows rapidly through fetal and early postnatal life. Fetal heart growth is achieved by cardiomyocyte (CM) proliferation, but postnatal mammalian CMs lose their capacity to proliferate, and postnatal growth occurs primarily by increasing CM size rather than number. Diseases such as myocardial infarction result in the loss of billions of CMs leading to heart failure, for which we lack specific therapies. Numerous challenges must be resolved in order to achieve clinically meaningful regeneration, including the problems of producing enough cells and ensuring their functional integration. Insight into both issues comes from the study of embryonic cardiac development. In this review, I will introduce the progress of heart development and regeneration and only focus on three issues, cis-acting element activity in CM cell fate, epigenetic regulation and gene regulatory networks of the heart.    
+
+  <br />     
 
 
 ### 1. Regulation of Heart Development by cis-Regulatory Elements
 cis-Regulatory Elements (CREs) are regions of non-coding DNA, such as promoters, enhancers, insulators and silencers, which regulate the transcription of nearby or distal genes by functioning as binding sites for transcription factors [1]. Many case studies indicated that the activities of cis-acting elements and trans-acting factors can control cell differentiation and would be a major factor of cell fate determination [2-5].
 
 The most well characterized types of CREs are enhancers and promoters and their interactions are crucial to germ cell develop to adult [6-12]. Large-scale studies have recently identified hundreds of thousands of distal enhancer elements. Emerging evidence indicates that lineage-specific transcription factors and chromatin regulators coordinate the activation of distal enhancers to ensure robust control of gene expression programs in a cell type-specific manner [13]. Transcription factor (TF) binding profiles have become a widely used proxy for genome-wide discovery of cardiac enhancers. Combinatorial binding of TFs is crucial for precisely regulating enhancer activation and the expression of nearby genes [14]. For example, recent studies have shown that the co-occupancy of cardiac TFs in the genome can identify cardiac-specific enhancers [15]. A similar investigation in Drosophila found that the collective binding of five cardiac TFs was required for full transcriptional activity of heart enhancers in vitro [16]. Using a solely computational approach, other groups identified over 40 000 putative cardiac enhancers in the human genome based on various sequence features including the co-occurrence of TF motifs [17]. Collectively, these works indicate that lineage-specific TFs act cooperatively at enhancers to drive the cardiogenic program. Certainly, enhancers and promoters are also very important to cardiac regeneration [18-20].
+
+  <br />     
 
 
 ### 2. Epigenetic Regulation of  Cardiac Development and Regeneration
@@ -33,12 +41,16 @@ Cardiac DNA methylation patterns are known to correlate with gene expression and
 
 Other epigenetic mechanisms including ATP-dependent chromatin remodeling, nucleosome positioning dynamics, non-coding RNA, histone acetylation and methylation can also influence heart development [28-30]. All of them are associated with adult heart regeneration and repair [31-38].
 
+  <br />     
+
 
 ### 3. Gene Regulatory Networks in the Heart Development
 Gene expression during development and differentiation is regulated in a cell- specific and stage-specific manner by complex networks of intergenic and intragenic cis-regulatory elements. Heart development is regulated by gene regulatory networks consisting of a set of highly conserved tissue-specific transcription factors, signaling molecules and non-coding RNAs [39-41]. Central to this network are the transcription factors Gata4, Mef2a, Nkx2.5, Srf, which together with their target DNA elements, form an evolutionarily conserved subcircuit essential for development [42, 43].
 
 Recent studies have revealed central roles for microRNAs (miRNAs) as governors of gene expression during cardiac development. The integration of miRNAs into the genetic circuitry of the heart provides a rich and robust array of regulatory interactions to control cardiac gene expression [44]. For instance, Zhiyun Guo et al. [45] extracted 116 miRNAs and systematically investigated the regulatory network of transcription factor (TF)-miRNA in 12 human tissues. They identified 2347 TF-miRNA regulatory relations and revealed that most TF binding sites tend to enrich close to the transcription start site of miRNAs.  
 
+
+  <br />     
 
 ### 4. Perspectives
 If we want to overcome the fundamental problems of regenerating lost cardiomyocytes, we must fully understand the mechanism of heart development. To this end, we have to generate sufficient and detailed data about heart development, it depends on the progress of technology. So, the relevant technologies, such as the third generation sequencing and imaging techniques, are the most essential role for solving the problems. Though, of course, when we think the problems, we must consider the evolutionary origin of the heart, because “Nothing in Biology Makes Sense Except in the Light of Evolution” [46].
@@ -138,4 +150,8 @@ If we want to overcome the fundamental problems of regenerating lost cardiomyocy
 [46] Theodosius Dobzhansky. (1973). `Nothing in Biology Makes Sense Except in the Light of Evolution`. The American Biology Teacher, 35, 125-129.
 
 
+  <br />     
+
 这是我以前的生理学课程期末论文， 本来想把 ncRNA regulation, Nonlinear and stochastic dynamics model and Machine Learning Model in the heart development, Tissue Engineering and Synthetic Biology in cardiac regeneration, 都加进去， 但由于时间不够了， 老师也说过五六页就够了，所以就省掉了。                                                                                        
+
+  <br />     
