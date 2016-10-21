@@ -2,7 +2,7 @@
 layout: post
 title: The Regulatory Genome and Cistrome
 category: English
-tags: Regulatory_Genome  Cistrome
+tags: English_Posts   Regulatory_Genome  Cistrome
 keywords: Regulatory_Genome  Cistrome
 description:  The Regulatory Genome and Cistrome
 ---
