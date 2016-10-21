@@ -48,7 +48,7 @@ body, html {
 
 .aside1 > .nav-pills>li.active>a ,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
   color: #fff;
-  background-color: 1ABC9C;           
+  background-color: #1ABC9C;           
 }
 
 .avatar {  /* 顶部图片 */ 
