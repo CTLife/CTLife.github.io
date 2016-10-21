@@ -5328,14 +5328,16 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     position: relative;                         
     display: block;
     padding-bottom: 20px;
+    padding-left: 2px;
     margin-bottom: -1px;
     color: #fff;
     background-color: #1abc9c;
-    border: 0px solid #1abc9c;/*115449;*/
+    border: 0px solid #1abc9c;   /*115449;*/
     border-left: 0px;
     border-right: 0px;
     /*border: 0px solid #ddd;*/
-    margin-right: 0px; margin-left: 0px; 
+    margin-right: 0px;                 
+    margin-left: 0px;                    
 }
 
 a.list-group-item-lay:hover, a.list-group-item-lay:focus {
