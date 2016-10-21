@@ -33,25 +33,25 @@ In a words, histone modifications and nucleosome dynamics can influence each oth
 
 
 ---                  
-## References:                          
-[1] Zachary A. Gurard-Levin, et al. (2014). `Histone Chaperones: Assisting Histone Traffic and Nucleosome Dynamics`. Annual Review of Biochemistry, 83: 487-517. 
-                        
-[2] Maria J.E. Koster, et al. (2015). `Genesis of Chromatin and Transcription Dynamics in the Origin of Species`. Cell, 161(4), 724–736.    
-                                 
-[3] Timothy R. Blosser, et al. (2009). `Dynamics of nucleosome remodelling by individual ACF complexes`. Nature, 462, 1022-1027.    
-                               
-[4] Isabel Jimenez-Useche, et al. (2013). `DNA Methylation Regulated Nucleosome Dynamics`. Scientific Reports, 3, Article number: 2121.  
-                               
-[5] Thuy T.M. Ngo, et al. (2015).  `Asymmetric Unwrapping of Nucleosomes under Tension Directed by DNA Local Flexibility`. Cell, 160(6), 1135–1144.  
-                      
-[6] Gregory D. Bowman, Michael G. Poirier. (2015). `Post-Translational Modifications of Histones That Influence Nucleosome Dynamics`. Chem. Rev., 115 (6), 2274–2295.    
-                            
-[7] Hideaki Tagami, et al. (2004). `Histone H3.1 and H3.3 Complexes Mediate Nucleosome Assembly Pathways Dependent or Independent of DNA Synthesis`. Cell, 116(1), 51–61.  
-                             
-[8] Peter Tessarz, Tony Kouzarides. (2014). `Histone core modifications regulating nucleosome structure and dynamics`. Nature Reviews Molecular Cell Biology, 15, 703–708.  
-                                     
-[9] Swaminathan Venkatesh, et al. (2012). `Set2 methylation of histone H3 lysine 36 suppresses histone exchange on transcribed genes`. Nature, 489, 452–455. 
-                                                      
-[10] Michaela Smolle, et al. (2012). `Chromatin remodelers Isw1 and Chd1 maintain chromatin structure during transcription by preventing histone exchange`. Nature Structural & Molecular Biology, 19, 884–892.  
+### References:                          
+[1] Zachary A. Gurard-Levin, et al. (2014). `Histone Chaperones: Assisting Histone Traffic and Nucleosome Dynamics`. Annual Review of Biochemistry, 83: 487-517.                                 
+                                               
+[2] Maria J.E. Koster, et al. (2015). `Genesis of Chromatin and Transcription Dynamics in the Origin of Species`. Cell, 161(4), 724–736.                         
+                                                             
+[3] Timothy R. Blosser, et al. (2009). `Dynamics of nucleosome remodelling by individual ACF complexes`. Nature, 462, 1022-1027.                                   
+                                                              
+[4] Isabel Jimenez-Useche, et al. (2013). `DNA Methylation Regulated Nucleosome Dynamics`. Scientific Reports, 3, Article number: 2121.                                 
+                                                              
+[5] Thuy T.M. Ngo, et al. (2015).  `Asymmetric Unwrapping of Nucleosomes under Tension Directed by DNA Local Flexibility`. Cell, 160(6), 1135–1144.                                 
+                                                     
+[6] Gregory D. Bowman, Michael G. Poirier. (2015). `Post-Translational Modifications of Histones That Influence Nucleosome Dynamics`. Chem. Rev., 115 (6), 2274–2295.                                   
+                                                           
+[7] Hideaki Tagami, et al. (2004). `Histone H3.1 and H3.3 Complexes Mediate Nucleosome Assembly Pathways Dependent or Independent of DNA Synthesis`. Cell, 116(1), 51–61.                                 
+                                                            
+[8] Peter Tessarz, Tony Kouzarides. (2014). `Histone core modifications regulating nucleosome structure and dynamics`. Nature Reviews Molecular Cell Biology, 15, 703–708.                                 
+                                                                    
+[9] Swaminathan Venkatesh, et al. (2012). `Set2 methylation of histone H3 lysine 36 suppresses histone exchange on transcribed genes`. Nature, 489, 452–455.                                
+                                                                                     
+[10] Michaela Smolle, et al. (2012). `Chromatin remodelers Isw1 and Chd1 maintain chromatin structure during transcription by preventing histone exchange`. Nature Structural & Molecular Biology, 19, 884–892.                                 
                                                         
                                                                
