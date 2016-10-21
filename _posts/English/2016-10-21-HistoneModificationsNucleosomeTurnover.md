@@ -6,8 +6,14 @@ tags: English_Posts  Histone_Modifications   Nucleosome_Turnover
 keywords: Histone Modifications, Nucleosome Turnover
 description:  Relationship between Histone Modifications and Nucleosome Turnover
 ---
-
-Apparently, all the factors that influence nucleosome turnover can be classified into two categories:  internal and external causes.  The external causes mainly contain chromatin remodeling complexes, some enzymes, histone chaperones and DNA binding proteins [1,2], such as ATP-dependent chromatin assembly and remodelling factor (ACF) [3]. The internal causes contain all the factors that influence the histone-DNA or histone-histone interactions, such as DNA flexibility, DNA methylation, histone modification and variants [4-7]. Here, I only introduce the relationship between histone modifications and nucleosome turnover.
+                                                                        
+Apparently, all the factors that influence nucleosome turnover can be classified into two categories:     
+internal and external causes.  
+The external causes mainly contain chromatin remodeling complexes, some enzymes, histone chaperones and 
+DNA binding proteins [1,2], such as ATP-dependent chromatin assembly and remodelling factor (ACF) [3]. 
+The internal causes contain all the factors that influence the histone-DNA or histone-histone interactions, 
+such as DNA flexibility, DNA methylation, histone modification and variants [4-7].    
+Here, I only introduce the relationship between histone modifications and nucleosome turnover.
 
 
 Recent data suggest that histone modifications have a direct effect on nucleosomal architecture by affecting histone–histone and histone–DNA interactions, as well as the binding of histones to chaperones [8]. And Venkatesh [9, 10] show that co-transcriptional acetylation is achieved in part by histone exchange over open reading frames (ORFs) in yeast.
@@ -17,16 +23,16 @@ Firstly, H3K56ac is positioned at the entry–exit point of the DNA on the nucle
 
 
 Secondly, H3K122 is located on the dyad axis of the nucleosome, in which the interaction between histones and DNA is strongest. H3K122ac can establish a water mediated salt bridge between H3K122 and the DNA. Previous data suggest that fully acetylated H3K64 are less stable than nucleosomes containing unmodified H3K64. In addition, and H3K64 acetylation reduces the interaction with DNA.
-<br>
+
 
 Thirdly, H3K79 is located on the outside of the nucleosome, in the solvent-exposed carboxy-terminal end of the H3 α1 helix. The structure of chemically dimethylated H3K79 showed that this modification does not cause a major change in nucleosome structure, but a subtle reorientation of the region surrounding Lys79, which probably results in the loss of a single hydrogen bond to the L2 loop of H4. And H4K91 is positioned within the H3–H4 tetramer–H2A–H2B dimer interface and mutation mimicking the acetylated state leads to decondensed chromatin and loss of nucleosomal interaction.
-<br>
+
 
 Fourthly, histone chaperones are acidic proteins and hence ideally suited to guide the basic histones to their final destination within chromatin. They either bind the histone–histone interface or part of the histone–DNA interaction surface. Therefore, histone modifications, such as H3K56ac and H2AQ105, could also modulate the binding to their respective chaperones.
-<br>
+
 
 Lastly, in yeast, co-transcriptional acetylation is achieved in part by histone exchange over ORFs. In addition to its function of targeting and activating the Rpd3S complex, H3K36 methylation suppresses the interaction of H3 with histone chaperones, histone exchange over coding regions and the incorporation of new acetylated histones.
-<br>
+
                           
 In a words, histone modifications and nucleosome dynamics can influence each other. So understanding the correlation between histone modification and nucleosome turnover maybe become the first task.
 
