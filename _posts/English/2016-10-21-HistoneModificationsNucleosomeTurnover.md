@@ -44,7 +44,7 @@ In a words, histone modifications and nucleosome dynamics can influence each oth
 
 
 
-×××                     
+——————                                 
 ### References:                          
 [1] Zachary A. Gurard-Levin, et al. (2014). `Histone Chaperones: Assisting Histone Traffic and Nucleosome Dynamics`. Annual Review of Biochemistry, 83: 487-517.                                 
                                                
