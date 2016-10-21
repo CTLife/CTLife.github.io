@@ -7,13 +7,7 @@ keywords: Histone Modifications, Nucleosome Turnover
 description:  Relationship between Histone Modifications and Nucleosome Turnover
 ---
                                                                         
-Apparently, all the factors that influence nucleosome turnover can be classified into two categories:     
-internal and external causes.  
-The external causes mainly contain chromatin remodeling complexes, some enzymes, histone chaperones and 
-DNA binding proteins [1,2], such as ATP-dependent chromatin assembly and remodelling factor (ACF) [3]. 
-The internal causes contain all the factors that influence the histone-DNA or histone-histone interactions, 
-such as DNA flexibility, DNA methylation, histone modification and variants [4-7].    
-Here, I only introduce the relationship between histone modifications and nucleosome turnover.
+###Apparently, all the factors that influence nucleosome turnover can be classified into two categories: internal and external causes. The external causes mainly contain chromatin remodeling complexes, some enzymes, histone chaperones and DNA binding proteins [1,2], such as ATP-dependent chromatin assembly and remodelling factor (ACF) [3]. The internal causes contain all the factors that influence the histone-DNA or histone-histone interactions, such as DNA flexibility, DNA methylation, histone modification and variants [4-7]. Here, I only introduce the relationship between histone modifications and nucleosome turnover.
 
 
 Recent data suggest that histone modifications have a direct effect on nucleosomal architecture by affecting histone–histone and histone–DNA interactions, as well as the binding of histones to chaperones [8]. And Venkatesh [9, 10] show that co-transcriptional acetylation is achieved in part by histone exchange over open reading frames (ORFs) in yeast.
