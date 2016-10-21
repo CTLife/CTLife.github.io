@@ -43,8 +43,7 @@ Lastly, in yeast, co-transcriptional acetylation is achieved in part by histone 
 In a words, histone modifications and nucleosome dynamics can influence each other. So understanding the correlation between histone modification and nucleosome turnover maybe become the first task.
 
 
-
-——————                                 
+---                                            
 ### References:                          
 [1] Zachary A. Gurard-Levin, et al. (2014). `Histone Chaperones: Assisting Histone Traffic and Nucleosome Dynamics`. Annual Review of Biochemistry, 83: 487-517.                                 
                                                
