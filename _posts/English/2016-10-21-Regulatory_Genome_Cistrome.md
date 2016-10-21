@@ -13,7 +13,7 @@ The Regulatory Genome and Cistrome
 
 (调控基因组与顺式作用元件组)
                                 
-   <center/>     
+   </center>     
 
 The cistrome refers to "the set of cis-acting targets of a trans-acting factor  on a genome-wide scale,  also known as the in vivo genome-wide location of [transcription factor binding-sites] or histone modifications". The term cistrome is a portmanteau of cistr (from cistron) + ome (from genome). The term cistrome was coined by investigators at the Dana-Farber Cancer Institute and Harvard Medical School.
 
