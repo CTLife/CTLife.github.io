@@ -48,7 +48,7 @@ body, html {
 
 .aside1 > .nav-pills>li.active>a ,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
   color: #fff;
-  background-color: #2E8B57;
+  background-color: #1abc9c;
 }
 
 .avatar {  /* 顶部图片 */ 
@@ -69,7 +69,7 @@ body, html {
 /* 中部目录栏 */
 .aside2 {
   background-color: #303030;
-  /*background-image: url(/public/img/logo-2.jpg);*/
+  background-image: url(/public/img/logo-2.jpg);
   width: 55%;
   height: 100%;
   border-right: 0px solid #2E8B57;
