@@ -9,9 +9,11 @@ description:  Relationship between Histone Modifications and Nucleosome Turnover
                                                                         
 #### Apparently, all the factors that influence nucleosome turnover can be classified into two categories: internal and external causes. The external causes mainly contain chromatin remodeling complexes, some enzymes, histone chaperones and DNA binding proteins [1,2], such as ATP-dependent chromatin assembly and remodelling factor (ACF) [3]. The internal causes contain all the factors that influence the histone-DNA or histone-histone interactions, such as DNA flexibility, DNA methylation, histone modification and variants [4-7]. Here, I only introduce the relationship between histone modifications and nucleosome turnover.
 
+  <br />     
 
 Recent data suggest that histone modifications have a direct effect on nucleosomal architecture by affecting histone–histone and histone–DNA interactions, as well as the binding of histones to chaperones [8]. And Venkatesh [9, 10] show that co-transcriptional acetylation is achieved in part by histone exchange over open reading frames (ORFs) in yeast.
 
+  <br />    
 
 Firstly, H3K56ac is positioned at the entry–exit point of the DNA on the nucleosome, it can form water-mediated contacts between the histone residue and the DNA. So H3K56ac might influence nucleosome stability and DNA accessibility by enabling the nucleosome breathing. Arg42 is another residue in histone H3 that is located at the DNA entry–exit region of the nucleosome. The addition of a methyl group to an Arg residue not only adds steric bulk but also removes a potential hydrogen bond donor, which suggests that this modification affects the interaction of histones with the DNA. And previous data imply a role for asymmetric dimethylation of H3R42 in decreasing nucleosome stability.
 
