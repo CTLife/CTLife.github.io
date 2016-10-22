@@ -25,18 +25,12 @@ layout: base
         <div style="margin-top:10px;margin-bottom:10px">
             {%if page.previous%}
             <span class="next">
-              <h3> Previous：</h3>
-              <a href="{{page.previous.url}}">
-                  {{page.previous.title}}
-              </a>
+              <h3> Previous：</h3><a href="{{page.previous.url}}">{{page.previous.title}}</a>
             </span>
             {%endif%}
             {%if page.next%}
             <span class="prev">
-             <h3>  Next： </h3>
-              <a href="{{page.next.url}}"> 
-                  {{page.next.title}}
-              </a>
+             <h3>  Next： </h3> <a href="{{page.next.url}}"> {{page.next.title}}</a>
             </span>
             {%endif%}
         </div>
