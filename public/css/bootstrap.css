@@ -5327,7 +5327,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 .list-group-item-lay {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 5px 15px;
     margin-bottom: -1px;
     color: #fff;
     background-color: #1abc9c;
