@@ -9,7 +9,6 @@
  * Config saved to config.json and https://gist.github.com/0df2e7db5f1213317a44
  */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-                           
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -5326,18 +5325,17 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .list-group-item-lay {
-    position: relative;                         
+    position: relative;
     display: block;
-    padding: 10px 15px;         
+    padding: 10px 15px;
     margin-bottom: -1px;
     color: #fff;
     background-color: #1abc9c;
-    border: 0px solid #1abc9c;   /*115449;*/
+    border: 0px solid #1abc9c;/*115449;*/
     border-left: 0px;
     border-right: 0px;
     /*border: 0px solid #ddd;*/
-    margin-right: 0px;                                                   
-    margin-left: 0px;                                         
+    margin-right: 0px; margin-left: 35px; 
 }
 
 a.list-group-item-lay:hover, a.list-group-item-lay:focus {
