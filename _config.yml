@@ -29,6 +29,10 @@ favicon: /public/img/logo-1.png
 # disqus 设置
 disqus:
   shortname: ctlife
+  
+#duoshuo 设置  
+duoshuo:
+  shortname: ctlife  
 
 # 主题设置，自动激活某个标签
 active: English
