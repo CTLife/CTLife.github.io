@@ -14,11 +14,11 @@ layout: base
         <div id="content">
             <p>转载请注明唯一出处: <a href=" {{ site.url }}{{ page.url }} ">{{ site.url }}{{ page.url }}</a></p>
             <p>Reproduced please indicate the source: <a href=" {{ site.url }}{{ page.url }} ">{{ site.url }}{{ page.url }}</a></p>
-            <center>   
+            <center>  <h6>  
 		 <input type="button"   value="  显示分享和评论 (即刷新一次)  "  onClick="window.location.reload()"> 
 		  &emsp; &emsp;
 		 <input type="button"   value="  Share and Comment (Refresh Once)  "  onClick="window.location.reload()">
-	    </center> 
+	    </h6>  </center> 
 	    <hr>
             <br>  
             {{ content }}
@@ -38,7 +38,7 @@ layout: base
             {%endif%}
         </div>
 	 <br>
-	 <center>   <b>  <h4>
+	 <center>   <b>  <h4> 
 		 <input type="button"   value="  显示分享和评论 (即刷新一次)  "  onClick="window.location.reload()"> 
 		  &emsp; &emsp;
 		 <input type="button"   value="  Share and Comment (Refresh Once)  "  onClick="window.location.reload()">
@@ -52,10 +52,11 @@ layout: base
     <hr>
     {% include disqus.html %}                    
     <hr>
-    {% include duoshuo.html %}                      
+    {% include duoshuo.html %} 
+    <br> <br>           
   </div>	
   <!-- 目录 -->
-  <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
+  <div id="content_table" style="position:fixed; right:20px; top:120px; display:none;">
     <div class="panel panel-success">
       <div class="panel-body" id="nav"></div>
     </div>
