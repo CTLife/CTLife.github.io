@@ -7,10 +7,6 @@ keywords:
 description: 
 ---
 
-
-
-
-
 ##Java JDK 8 的安装以及环境变量的配置(Linux and Windows)
 
 
