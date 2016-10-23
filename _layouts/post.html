@@ -17,7 +17,8 @@ layout: base
             <hr>
             <br>  
             {{ content }}
-         </div>                                                      
+         </div>    
+	 <input type="button"  value="显示分享和评论"  onClick="window.location.reload()">	   
          <b><br><br><hr>Share this post: </b>
          <!-- Go to www.addthis.com/dashboard to customize your tools -->
          <div class="addthis_inline_share_toolbox_6w25"></div>
@@ -35,8 +36,8 @@ layout: base
             {%endif%}
         </div>
 	
-    <button type="button"  class="am-btn am-btn-default am-btn-xs am-text-secondary" data-id="99"  data-type=1><span class="am-icon-pencil-square-o"></span>显示分享和评论</button>	
-    <input type="button" value="Refresh Page" onClick="window.location.reload()">		
+	    
+     	
 
     <hr>
     {% include disqus.html %}                    
