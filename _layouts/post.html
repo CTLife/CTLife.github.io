@@ -8,7 +8,7 @@ layout: base
     <h2 id="#identifier">{{ page.title }}</h2>
     {{ page.date | date:"%Y-%m-%d" }}
   </div>
-
+    <br><br><hr>
     <div class="col-md-13 aside3-content">
         <hr>
         <div id="content">
@@ -18,10 +18,6 @@ layout: base
             <br>  
             {{ content }}
          </div>    
-	 <input type="button"  value="显示分享和评论"  onClick="window.location.reload()">	   
-         <b><br><br><hr>Share this post: </b>
-         <!-- Go to www.addthis.com/dashboard to customize your tools -->
-         <div class="addthis_inline_share_toolbox_6w25"></div>
 
         <div style="margin-top:10px;margin-bottom:10px">
             {%if page.previous%}
@@ -35,8 +31,11 @@ layout: base
             </span>
             {%endif%}
         </div>
-	
-	    
+	 
+	 <input type="button"  value="显示分享和评论"  onClick="window.location.reload()">	
+         <!-- Go to www.addthis.com/dashboard to customize your tools -->
+         <div class="addthis_inline_share_toolbox_6w25"></div>
+    
      	
 
     <hr>
