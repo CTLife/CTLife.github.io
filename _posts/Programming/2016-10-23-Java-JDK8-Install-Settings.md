@@ -24,9 +24,9 @@ Win10下JDK8环境变量的配置：
 依次单击计算机（Computer），选择属性（Properties）,选择高级系统设置（Advanced systems settings）, 选择环境变量（Environment  Variables）.            
 新建3个环境变量（PATH，CLASSPATH, JAVA_HOME），若有则不用新建。                         
 给3个环境变量增加相应的值（由Java所在的路径决定，根据具体情况修改），例如：                                            
-PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                           
-CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar                                
-JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
++   PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                           
++   CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar                                
++   JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
 
 不同路径之间用分号隔开。                                 
 
@@ -48,13 +48,13 @@ JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10
 
 5 在文件.profile 或 .bash_profile 中添加环境变量，在文件的最末尾加上以下4行(需根据具体情况修改，由JAVA所在目录决定)：
 
-   export  JAVA_HOME = /usr/local/jdk1.7.0_10
++    export  JAVA_HOME = /usr/local/jdk1.7.0_10
 
-   export  JRE_HOME = ${JAVA_HOME}/jre
++    export  JRE_HOME = ${JAVA_HOME}/jre
 
-   export  CLASSPATH = .:${JAVA_HOME}/lib:${JRE_HOME}/lib
++    export  CLASSPATH = .:${JAVA_HOME}/lib:${JRE_HOME}/lib
 
-   export  PATH = ${JAVA_HOME}/bin:$PATH
++    export  PATH = ${JAVA_HOME}/bin:$PATH
 
 
 若添加正确，注销或重启计算机以后，在Bash Shell中输入：  
