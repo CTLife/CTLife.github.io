@@ -60,9 +60,9 @@ Win10下JDK8环境变量的配置：
 
 若添加正确，注销或重启计算机以后，在Bash Shell中输入：  
 
-java  -version
+     java  -version
 
-javac  -version
+     javac  -version
 
 都会显示版本信息。
                            
