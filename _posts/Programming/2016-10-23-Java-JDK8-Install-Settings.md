@@ -24,9 +24,9 @@ Win10下JDK8环境变量的配置：
 依次单击计算机（Computer），选择属性（Properties）,选择高级系统设置（Advanced systems settings）, 选择环境变量（Environment  Variables）.            
 新建3个环境变量（PATH，CLASSPATH, JAVA_HOME），若有则不用新建。                         
 给3个环境变量增加相应的值（由Java所在的路径决定，根据具体情况修改），例如：                                            
-&middot;   PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                           
-   CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar                                
-   JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
+&bull;   PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                           
+&bull;   CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar                                
+&bull;   JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
 
 不同路径之间用分号隔开。                                 
 
