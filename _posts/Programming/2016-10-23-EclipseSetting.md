@@ -7,15 +7,12 @@ keywords:
 description: 
 ---
 
-
  <center>  
 ##Eclipse 中文注释字体太小的解决办法
  </center>  
 
 Eclipse中文注释字体太小的解决办法：
-
-打开Eclipse -> window -> preferences -> General -> Appearance -> 
-
-Colors and Fonts,  打开basic，双击Test Font， 选择微软雅黑。
+打开Eclipse -> window -> preferences -> General -> Appearance -> Colors and Fonts,     
+打开basic，双击Test Font， 选择微软雅黑。
 
 
