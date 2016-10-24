@@ -7,41 +7,36 @@ keywords:
 description: 
 ---
 
-##Java JDK 8 的安装以及环境变量的配置(Linux and Windows)
-
-
 JDK(Java Development Kit)包括了Java语言的编译器，可以在这里下载：
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
 
-打开网页后，先点击“Accept License Agreement”。
+打开网页后，先点击“Accept License Agreement”。  根据操作系统选择相应的版本。
 
-根据操作系统选择相应的版本。
 
  
-
+<center>
 ###Java JDK8 在 Windows 10 下的安装以及环境变量的配置
+</center>
+                   
+在Windows 中，双击安装就是。                       
+Win10下JDK8环境变量的配置：                              
+依次单击计算机（Computer），选择属性（Properties）,选择高级系统设置（Advanced systems settings）, 选择环境变量（Environment  Variables）.            
+新建3个环境变量（PATH，CLASSPATH, JAVA_HOME），若有则不用新建。                         
+给3个环境变量增加相应的值（由Java所在的路径决定，根据具体情况修改），例如：                                            
+PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                           
+CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar                                
+JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
 
-在Windows 中，双击安装就是。
+不同路径之间用分号隔开。                                 
 
-Win10 update 下JDK7环境变量的配置：
-
-依次单击计算机（Computer），选择属性（Properties）,选择高级系统设置（Advanced systems settings）, 选择环境变量（Environment  Variables）.
-
- 
-新建3个环境变量（PATH，CLASSPATH, JAVA_HOME），若有则不用新建。
-给3个环境变量增加相应的值（由Java所在的路径决定，根据具体情况修改），例如：
-
-PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin
-CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar
-JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10
-
-不同路径之间用分号隔开。
-
-若添加正确，注销或重启计算机以后，在PowerShell或cmd中输入java -version和javac -version会显示版本信息。
+若添加正确，注销或重启计算机以后，在PowerShell或cmd中输入java -version和javac -version会显示版本信息。                  
 
 
+
+<center>
 ###Java JDK8 在 Linux 下的安装以及环境变量的配置
+</center>
 
 1  下载，根据 Linux系统的位数选择，这里以后缀为.tar.gz的为例，.rpm的直接安装就是。
 
@@ -69,3 +64,4 @@ java  -version
 javac  -version
 
 都会显示版本信息。
+                           
