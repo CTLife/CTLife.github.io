@@ -90,14 +90,12 @@ body, html {
 .aside3-title {
   background-color: #f5f5f5;
   border-bottom: 1px solid #f5f5f5;
-  padding: 0   3%   0   3%;
   text-align: center;
   color: #303030;
 }
 .aside3-content {
-  padding: 0   3%   0   3%;
   color: #656565;
-  line-height: 1.42857143;
+  line-height: 1.5;
   text-align: justify;
 }
 #content {
