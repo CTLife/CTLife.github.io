@@ -32,8 +32,8 @@ The Regulatory Genome beautifully explains the control of animal development in 
 
 The sequencing of the whole genome of multiple species provides us with the instruction book of how to build an organism and make it work, plus a detailed history of how diversity was generated during evolution. Unfortunately, we still understand only a small fraction, which is locating where genes are and deciphering the proteins they code for. The next step is to understand how the correct amount of gene products are produced in space and time to obtain a fully functioning organism, from the egg to the adult. This is what is known as the regulatory genome, a term coined by Eric H. Davidson.
 
-
----    
+  <br />
+     
 ### References and Further Reading:
 
 http://en.wikipedia.org/wiki/Cistrome
