@@ -38,6 +38,7 @@ body, html {
   color: #FFFFFF;
   font-weight: bolder;  
   font-size: 130%;
+  padding-bottom: 10%;
 }
 
 .aside1> .nav > li > a:hover {
