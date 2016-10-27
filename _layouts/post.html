@@ -3,55 +3,50 @@ layout: base
 ---
                                                                                          
 <div class="row">
-  <div class="col-md-13 aside3-title">
-
-    <h2 id="#identifier">{{ page.title }}</h2>
-    {{ page.date | date:"%Y-%m-%d" }}
+	           
+    <div class="col-md-13 aside3-title">
+        <h2 id="#identifier">{{ page.title }}</h2>
+        {{ page.date | date:"%Y-%m-%d" }}
     </div>
-    
+	                          
     <div class="col-md-13 aside3-content">
-        <div id="content">                                                                      
-            {{ content }}
-         </div> 
-	    
+         <div id="content"> {{ content }} </div>     
 	 <hr>
             <p>转载请注明唯一出处: <a href=" {{ site.url }}{{ page.url }} ">{{ site.url }}{{ page.url }}</a></p>
             <p>Reproduced please indicate the source: <a href=" {{ site.url }}{{ page.url }} ">{{ site.url }}{{ page.url }}</a></p>
-	<hr>
-	    
-	 <center>   <b>  <h4> 
-		 <input type="button"   value="  显示分享和评论 (即刷新一次)  "  onClick="window.location.reload()"> 
-		  &emsp; &emsp;
+	 <hr>    
+	 <center>  <b>  <h4> 
+		 <input type="button"   value="  显示分享和评论 (即刷新一次)  "  onClick="window.location.reload()">   &emsp; &emsp;
 		 <input type="button"   value="  Share and Comment (Refresh Once)  "  onClick="window.location.reload()">
-	 </h4>  </b>  </center>      
-        <div style="margin-top:10px;margin-bottom:10px">
-            {%if page.previous%}
-            <span class="next">
-              <h5> Previous：  <a href="{{page.previous.url}}">{{page.previous.title}}</a> </h5>
-            </span>
+	 </h4>  </b>  </center>     
+         <!-- Go to www.addthis.com/dashboard to customize your tools -->
+         <div class="addthis_inline_share_toolbox_6w25"></div>
+         <div style="margin-top:10px;margin-bottom:10px">
+             {%if page.previous%}
+             <span class="next">
+                  <h5> Previous：  <a href="{{page.previous.url}}">{{page.previous.title}}</a> </h5>
+             </span>
             {%endif%}
             {%if page.next%}
             <span class="prev">
-             <h5>  Next： <a href="{{page.next.url}}"> {{page.next.title}}</a> </h5> 
+                  <h5>  Next： <a href="{{page.next.url}}"> {{page.next.title}}</a> </h5> 
             </span>
             {%endif%}
-        </div>
-
-         <!-- Go to www.addthis.com/dashboard to customize your tools -->
-         <div class="addthis_inline_share_toolbox_6w25"></div>
-         	
-    <hr>
-    {% include disqus.html %}                    
-    <hr>
-    {% include duoshuo.html %} 
-    <br> <br>           
-  </div>	
+         </div>      	
+         <hr>
+         {% include disqus.html %}                    
+         <hr>
+         {% include duoshuo.html %} 
+         <br> <br>           
+    </div>
+	           
   <!-- 目录 -->
   <div id="content_table" style="position:fixed; right:20px; top:120px; display:none;">
     <div class="panel panel-success">
       <div class="panel-body" id="nav"></div>
     </div>
   </div>
+	                             
 </div>
 
 
