@@ -38,7 +38,7 @@ body, html {
   color: #FFFFFF;
   font-weight: bolder;  
   font-size: 130%;
-  padding: 5px 5px 5px 5px;    /*  上右下左内边距 */
+  padding: 0px 5px 5px 5px;    /*  上右下左内边距 */
 }
 
 .aside1> .nav > li > a:hover {
