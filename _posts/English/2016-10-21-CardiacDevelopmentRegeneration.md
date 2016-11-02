@@ -55,7 +55,7 @@ Recent studies have revealed central roles for microRNAs (miRNAs) as governors o
 ### 4. Perspectives
 If we want to overcome the fundamental problems of regenerating lost cardiomyocytes, we must fully understand the mechanism of heart development. To this end, we have to generate sufficient and detailed data about heart development, it depends on the progress of technology. So, the relevant technologies, such as the third generation sequencing and imaging techniques, are the most essential role for solving the problems. Though, of course, when we think the problems, we must consider the evolutionary origin of the heart, because “Nothing in Biology Makes Sense Except in the Light of Evolution” [46].
                                     
----                                                              
+                                                             
 ### References：                                             
 [1] Patricia J. Wittkopp, Gizem Kalay. (2012). `Cis-regulatory elements: molecular mechanisms and evolutionary processes underlying divergence`. Nature Reviews Genetics, 13(1), 59-69.
 
