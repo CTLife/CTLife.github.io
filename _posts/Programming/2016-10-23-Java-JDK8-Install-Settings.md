@@ -19,19 +19,19 @@ JDK(Java Development Kit)包括了Java语言的编译器，可以在这里下载
 ###Java JDK8 在 Windows 10 下的安装以及环境变量的配置
 </center>
                    
-在Windows 中，双击安装就是。                       
+在Windows 中，双击安装就是,但是安装好以后可能需要配置环境变量。                       
 Win10下JDK8环境变量的配置：                              
 依次单击计算机（Computer），选择属性（Properties）,选择高级系统设置（Advanced systems settings）, 选择环境变量（Environment  Variables）.            
 新建3个环境变量（PATH，CLASSPATH, JAVA_HOME），若有则不用新建。                         
 给3个环境变量增加相应的值（由Java所在的路径决定，根据具体情况修改），例如：  
 
-         PATH    D:\Program Files\Java\jdk1.7.0_10\bin;  D:\Program  Files\Java\jdk1.7.0_10\jre\bin                      
-         CLASSPATH   D:\Program  Files\Java\jdk1.7.0_10\lib;  D:\Program  Files\Java\jdk1.7.0_10\lib\tools.jar           
-         JAVA_HOME    D:\Program  Files\Java\jdk1.7.0_10                            
+         PATH    D:\Program Files\Java\jdk1.8.0_10\bin;  D:\Program  Files\Java\jdk1.8.0_10\jre\bin                      
+         CLASSPATH   D:\Program  Files\Java\jdk1.8.0_10\lib;  D:\Program  Files\Java\jdk1.8.0_10\lib\tools.jar           
+         JAVA_HOME    D:\Program  Files\Java\jdk1.8.0_10                            
 
 不同路径之间用分号隔开。                                 
 
-若添加正确，注销或重启计算机以后，在PowerShell或cmd中输入java -version和javac -version会显示版本信息。                  
+若添加正确，注销或重启计算机以后，在PowerShell或cmd中输入`java -version`和`javac -version`会显示版本信息。                  
 
 <br/>
 
@@ -45,24 +45,20 @@ Win10下JDK8环境变量的配置：
 
 3  把解压后的文件夹放到/usr/local 下面。（这个随便，任意目录下都可以）
 
-4 在主目录下找到隐藏文件.profile ,  若没有.profile，则去找文件 .bash_profile （注意文件名以点号开头，因为是隐藏文件）。
+4 在主目录下找到隐藏文件.profile ,  若没有.profile，则去找文件 .bash_profile or .bashrc （注意文件名以点号开头，因为是隐藏文件）。
 
-5 在文件.profile 或 .bash_profile 中添加环境变量，在文件的最末尾加上以下4行(需根据具体情况修改，由JAVA所在目录决定)：
+5 在文件.profile 或 .bash_profile 或 .bashrc 中添加环境变量，在文件的最末尾加上以下4行(需根据具体情况修改，由JAVA所在目录决定)：
 
-    export  JAVA_HOME = /usr/local/jdk1.7.0_10
-
-    export  JRE_HOME = ${JAVA_HOME}/jre
-
-    export  CLASSPATH = .:${JAVA_HOME}/lib:${JRE_HOME}/lib
-
-    export  PATH = ${JAVA_HOME}/bin:$PATH
+    export  JAVA_HOME = /usr/local/jdk1.8.0_10           
+    export  JRE_HOME = ${JAVA_HOME}/jre          
+    export  CLASSPATH = .:${JAVA_HOME}/lib:${JRE_HOME}/lib            
+    export  PATH = ${JAVA_HOME}/bin:$PATH                    
 
 
 若添加正确，注销或重启计算机以后，在Bash Shell中输入：  
 
-     java  -version
-
-     javac  -version
+     java  -version           
+     javac  -version                      
 
 都会显示版本信息。
                            
