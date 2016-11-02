@@ -40,7 +40,7 @@ Linux下BLAST+的本地化(NCBI-BLAST 2.5.0+):
 
 在最末尾添加：
 
-export PATH=/home/yonpen/blast/bin:$PATH
+    export PATH=/home/yonpen/blast/bin:$PATH
 
 保存退出。（环境变量的值由Blast所在路径决定。）
 
@@ -55,9 +55,9 @@ export PATH=/home/yonpen/blast/bin:$PATH
 
 在文件中添加内容：
 
-[BLAST]
+    [BLAST]
 
-BLASTDB=/home/yonpen/blast/db
+    BLASTDB=/home/yonpen/blast/db
 
 
 ###  5. 下载FASTA格式的数据库:
