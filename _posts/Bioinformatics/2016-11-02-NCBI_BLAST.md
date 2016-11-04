@@ -12,32 +12,30 @@ description:
 </center> 
 
 
-本人在以下环境亲测有效：CentOS and Ubuntu Linux 64 Bit.
+本人在以下环境亲测有效：CentOS and Ubuntu Linux 64 Bit.                       
 下面涉及到的路径需要根据自己的电脑来修改。
 
-<center> 
-### Linux下BLAST+的本地化(NCBI-BLAST 2.5.0+):
-</center> 
 
 ### 1.  下载软件BLAST:
-在以下网址  ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/    下载:
+在以下网址  ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/    下载:                           
 `ncbi-blast-2.5.0+-x64-linux.tar.gz` （根据自己的操作系统选择）。
 
 
 ### 2.  解压:
-解压后放在任意目录下都可以，把相应路径加入PATH变量就是。
+解压后放在任意目录下都可以，把相应路径加入PATH变量就是。                                          
 比如解压到用户的主目录(/home/yonpen)下，把解压后的文件夹重新命名为blast，则BLAST+的所有程序在目录/home/yonpen/blast/bin下。
 
 
 ###  3.  添加环境变量:
-打开终端（Terminal）， 执行: 
-      vim  ~/.profile 
-      or vim  ~/.bashrc 
+打开终端（Terminal）， 执行:                                        
+      vim  ~/.profile                        
+      or vim  ~/.bashrc                  
 
-在最末尾添加：
-    export PATH=/home/yonpen/blast/bin:$PATH
+在最末尾添加：             
 
-保存退出。（环境变量的值由Blast所在路径决定。）
+    export PATH=/home/yonpen/blast/bin:$PATH                           
+
+保存退出。（环境变量的值由Blast所在路径决定。）                      
 
 此处若成功，注销以后执行`blastn -version`会出现版本信息（一定要先注销或重启电脑）。
 
@@ -58,7 +56,8 @@ description:
 
 
 ###  6. 建立BLAST+可用的数据库:
-打开终端（Terminal），切换到/home/yonpen/blast/db目录下，执行（以蛋白质库nr为例）：
+打开终端（Terminal），切换到/home/yonpen/blast/db目录下，执行（以蛋白质库nr为例）：                        
+
       makeblastdb  –in nr  -parse_seqids  -hash_index  -dbtype prot  
 
 (需要自己输入，复制这行命令可能不行，不知道为什么)
