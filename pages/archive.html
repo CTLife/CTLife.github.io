@@ -12,6 +12,7 @@ comments: false
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
   
     {% if forloop.first %}
+      <br>                              
       <legend id="{{this_year}}-{{this_month}}">{{this_year}}-{{this_month}}</legend>
       <ul>
     {% endif %}
