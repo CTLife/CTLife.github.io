@@ -85,7 +85,7 @@ body, html {
   overflow-y: auto;
   background-color: #FFFFFF;
   overflow-x: hidden;
-  padding: 0   2%   0   2%;
+  padding: 0   0%   0   0%;
 }
 .aside3-title {
   /*  padding: 5px 5px 5px 5px;    上右下左内边距 */                 
