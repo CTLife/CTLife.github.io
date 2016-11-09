@@ -25,12 +25,12 @@ comments: false
     {% else %}
       {% if this_year != next_year %}
         <ul>                                  
-        <legend id="{{next_year}}-{{next_month}}">{{next_year}}-{{next_month}}</legend>
+        <legend id="{{next_year}}-{{next_month}}"> <br>  {{next_year}}-{{next_month}}</legend>
         </ul>
       {% else %}    
         {% if this_month != next_month %}
         <ul>
-        <legend id="{{next_year}}-{{next_month}}">{{next_year}}-{{next_month}}</legend>
+        <legend id="{{next_year}}-{{next_month}}"> <br>  {{next_year}}-{{next_month}}</legend>
         </ul>
         {% endif %}
       {% endif %}
