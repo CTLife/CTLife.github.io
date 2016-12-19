@@ -50,7 +50,7 @@ Win10下JDK8环境变量的配置：
 5 在文件.profile 或 .bash_profile 或 .bashrc 中添加环境变量，在文件的最末尾加上以下4行(需根据具体情况修改，由JAVA所在目录决定, 等号“=”两端不能有空格)：
 
     export  JAVA_HOME=/usr/local/jdk1.8.0_10           
-    export  JRE_HOME= ${JAVA_HOME}/jre          
+    export  JRE_HOME=${JAVA_HOME}/jre          
     export  CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib            
     export  PATH=${JAVA_HOME}/bin:$PATH                    
 
